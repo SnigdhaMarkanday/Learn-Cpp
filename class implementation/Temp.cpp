@@ -27,5 +27,6 @@ int main()
   t.getdata();
   t.convert(f);
   t.display(c);
+  return 0;
  }
   
