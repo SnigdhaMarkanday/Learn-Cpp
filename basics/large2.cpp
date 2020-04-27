@@ -7,11 +7,11 @@ int main()
   cin>>n1>>n2;
   if(n1>n2)
   {
-    cout<<n1<<"is larger;
+    cout<<n1<<"is larger";
   }
   else
   {
-    cout<<n2<<"is larger;
+    cout<<n2<<"is larger";
   }
   return 0;
 }  
