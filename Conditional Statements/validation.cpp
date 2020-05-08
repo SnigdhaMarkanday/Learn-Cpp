@@ -1,14 +1,16 @@
 #include<iostream>
 using namespace std;
 int main(){
-  int n1,n2;
+  int n1,n2,d;
   cout<<"Enter the no.s to be divide";
   cin>>n1>>n2;
-  if(n1%n2!=0){
-    cout<<"not valid";
+  if(n2=0){
+    cout<<"denominator cannot be Zero \"INVALID\"";
    }
    else{
-    cout<<"valid";
+    
+     d=(n1/n2);
+     cout<<d;
    }
    return 0;
 }
