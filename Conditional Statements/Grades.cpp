@@ -10,7 +10,7 @@ int main(){
     cout<<"A Grade";
    }
    else{
-    if((p<=35)||(p<60)){
+    if((p>=35)&&(p<60)){
       cout<<"B Grade";
      }
      else{
