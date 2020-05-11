@@ -29,4 +29,5 @@ int main(){
  default:
      cout<<"Wrong Input";
   }
+  return 0;
 }
