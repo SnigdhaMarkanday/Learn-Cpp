@@ -1,0 +1,63 @@
+#include<iostream>
+using namespace std;
+int main(){
+  int d;
+  cout<<"Enter the no. ";
+  cin>>d;
+  if(d==1){
+    cout<<"One";
+   }
+   else{
+    if(d==2){
+      cout<<"Two";
+     }
+     else{
+      if(d==3){
+        cout<<"Three";
+       }
+       else{
+        if(d==4){
+          cout<<"Four';
+         }
+         else{
+          if(d==5){
+            cout<<"Five";
+           }
+           else{
+            if(d==6){
+              cout<<"Six";
+             }
+             else{
+              if(d==7){
+              cout<<"Seven";
+              }
+              else{
+                if(d==8){
+                  cout<<"Eight";
+                 }
+                 else{
+                  if(d==9){
+                    cout<<"Nine";
+                   }
+                   else{
+                    cout<<"Zero";
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
