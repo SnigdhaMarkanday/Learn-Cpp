@@ -10,7 +10,7 @@ int main(){
      }
      cout<<"Sum is"<<s;
    }
-   if(n==s){
+   if(s==(2*n)){
     cout<<"Perfect no.";
    }
    else{
