@@ -7,8 +7,26 @@ int main(){
   cin>>k;
   l=0;
   h=5;
-  m=(l+h)/2;
-  for(i=0;i<6;i++){
+  while(l<=h){
+    m=(l+h)/2;
+    if(k==A[m]){
+      cout<<"Found at "<<m;
+      return 0;
+    }
+    else{
+      if(k<A[m]){
+        h=m-1;
+      }
+      else{
+        l=m+1;
+      }
+    }
+    cout<<"Not Found";
+  }
+  return 0;
+}
+    
+    
     
     
     
