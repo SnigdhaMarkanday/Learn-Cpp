@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+class Base{
+    public:
+        int x;
+        void show(){
+          cout<<x;
+        }
+};
+class Derived : public Base{
+  public:
+    int y;
+    void display(){
+      cout<<x<<" "<<y;
+    }
+};
+int main(){
+    Base b;
+    b.x=70;
+    b.show();
+    Derived d;
+    d.x=67;
+    d.y=80;
+    d.show();
+    d.display();
+    return 0;
+}
