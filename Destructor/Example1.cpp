@@ -9,6 +9,7 @@ class Test{
           cout<<"Test destroyed";
         }
  };
+    
  int main(){
   Test *p=new Test();
   delete p;
