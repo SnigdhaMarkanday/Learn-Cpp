@@ -8,7 +8,7 @@ class Student{
       int rollno.;
       string branch;
       friend ofstream &operator<<(ofstream &ofs,Student &s);
-      friend ifstream &operator<<(ifstream &ifs,Student &s);
+      friend ifstream &operator>>(ifstream &ifs,Student &s);
  };
  ofstream &operator<<(ofstream &ofs, Student &s){
       ofs<<s.name<<endl;
@@ -16,7 +16,7 @@ class Student{
       ofs<<s.branch<<endl;
       return ofs;
   }
- ifstream &operator<<(ifstream &ifs, Student &s){
+ ifstream &operator>>(ifstream &ifs, Student &s){
     ifs>>s.name>>s.rollno>>s.branch;
     return ifs;
  }
